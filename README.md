@@ -1,1 +1,222 @@
-<h1>Cinema Spot</h1>
+<!DOCTYPE html>
+<html>
+  <title>
+    CinemaSpot
+    </title>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+            <!-- Bootstrap Icons CSS -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+            <!-- Personal CSS Link -->
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <!-- Bootstrap JavaScript -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-film"></i> Movies</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="toprated.html"><i class="bi bi-star"></i> Top Rated</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ratings.html"><i class="bi bi-list-ol"></i> Ratings</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="about.html"> About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<h2>
+					Welcome!
+				</h2>
+				<p>
+					This is CinemaSpot, where we rate the movies top to the bottom , so you don't need to waste your time.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="about.html">About</a>
+				</p>
+			</div>
+			<div class="carousel slide" id="carousel-842265">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-842265" class="active">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-842265">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-842265">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" alt="Carousel Bootstrap First" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6PC1paSR8OZhhoRdvkwEyxaUpNYhlqOBb2FDZxCM0D2Aik61t4oEGJuTL6VBXm632VDN4hNxmvdXr3vQlT_bxOyXGtEpQIEUTJCzRQaMc" />
+						<div class="carousel-caption">
+							<h4>
+								Black Phone two
+							</h4>
+							
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="https://gizmodo.com/app/uploads/2025/02/fantastic-four-first-steps-trailer.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								Fantastic 4: First Steps
+							</h4>
+							
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="https://i.gadgets360cdn.com/large/Furiosa_1729515216414.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								Madmax: Furisosa
+							</h4>
+							
+						</div>
+					</div>
+				</div> <a class="carousel-control-prev" href="#carousel-842265" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-842265" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+			</div>
+			<h3 class="text-center">
+				Movies of the Week
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<h3 class="text-center">
+				Scream
+			</h3><img alt="81%" src="https://media.wired.com/photos/617bf3c87a3b2c1081c1570f/16:9/w_1952,h_1098,c_limit/Culture_Scream_scrfp-018r.jpg" width="500px"/>
+			<dl>
+				<dt>
+					Description
+				</dt>
+				<dd>
+					Scream is a 1996 horror film where a masked killer named Ghostface terrorizes the town of Woodsboro, using horror movie trivia as part of a deadly game
+				</dd>
+				<dt>
+					Genre
+				</dt>
+				<dd>
+					Horror, Suspense, Thriller
+				</dd>
+				<dt>
+					Cast
+				</dt>
+				<dd>
+					Neve Campbell (Sidney Prescott), Courteney Cox (Gale Weathers), and David Arquette (Dewey Riley),Roger L. Jackson as the voice of Ghostface
+					Skeet Ulrich (Billy Loomis)
+					Matthew Lillard (Stu Macher)
+					Rose McGowan (Tatum Riley)
+					Jamie Kennedy (Randy Meeks)
+					Liev Schreiber (Cotton Weary)
+					Drew Barrymore (Casey Becker)
+					Hayden Panettiere (Kirby Reed)
+					Marley Shelton (Judy Hicks)
+				</dd>
+				<dt>
+					Director
+				</dt>
+				<dd>
+					Wes Craven
+				</dd>
+			</dl>
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-center">
+				Toystory
+			</h3><img alt="Bootstrap Image Preview" src="https://images.bauerhosting.com/legacy/empire-tmdb/films/862/images/dji4Fm0gCDVb9DQQMRvAI8YNnTz.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80" width="500px" />
+			<dl>
+				<dt>
+					Description
+				</dt>
+				<dd>
+					A group of toys who come to life when humans aren't around, focusing on the rivalry between Woody, a pull-string cowboy, and Buzz Lightyear, a new space action-figure.
+				</dd>
+				<dt>
+					Genre
+				</dt>
+				<dd>
+					Animation, Adventure, Family
+				</dd>
+				<dt>
+					Cast
+				</dt>
+				<dd>
+					Tom Hanks (Woody)
+Tim Allen (Buzz Lightyear)
+Don Rickles (Mr. Potato Head)
+Jim Varney (Slinky Dog)
+Wallace Shawn (Rex)
+John Ratzenberger (Hamm)
+Annie Potts (Bo Peep)
+John Morris (Andy)
+Erik von Detten (Sid Phillips)
+Laurie Metcalf (Andy's Mom)
+R. Lee Ermey (Sergeant)
+Sarah Freeman (Hannah Phillips) 
+				</dd>
+				<dt>
+					Director
+				</dt>
+				<dd>
+					John Lasseter
+				 </dd>
+			</dl>
+		</div>
+		<div class="col-md-4">
+			<h3 class="text-center">
+				Jumanji
+			</h3><img alt="Bootstrap Image Preview" src="https://resizing.flixster.com/_wLjLskr8hkNBaN0dRJDmNUfsCM=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13499680_v_h9_ak.jpg"width=500px />
+			<dl>
+				<dt>
+					Description
+				</dt>
+				<dd>
+					Four high school kids discover an old video game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji - you must survive it. To beat the game and return to the real world.
+				</dd>
+				<dt>
+					Genre
+				</dt>
+				<dd>
+					Action Adventure Comdey.
+				</dd>
+				<dd>
+					Donec id elit non mi porta gravida at eget metus.
+				</dd>
+				<dt>
+					Malesuada porta
+				</dt>
+				<dd>
+					Etiam porta sem malesuada magna mollis euismod.
+				</dd>
+				<dt>
+					Felis euismod semper eget lacinia
+				</dt>
+				<dd>
+					Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+				</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+</body>
+</html>
