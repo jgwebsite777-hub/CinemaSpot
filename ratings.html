@@ -33,11 +33,10 @@
         <thead>
           <tr><th>Movie</th><th>Rating</th><th>Year</th></tr>
         </thead>
-        <form id="search-form" action="/search" method="get">
-  <input type="search" id="search-input" name="q" placeholder="Search...">
-  <button type="submit">Search</button>
-</form>
+        <input type="text" id="mySearchInput" onkeyup="filterList()" placeholder="Search items...">
+
         <tbody>
+          <ul id="mySortableList">
           <tr><td>Predator:Badlands</td><td>82%</td><td>2025</td></tr>
           <tr><td>Sinners</td><td>94%</td><td>2025</td></tr>
           <tr><td>Top Gun: Maverick</td><td>92%</td><td>2022</td></tr>
@@ -78,7 +77,7 @@
         <tr><td>Raiders of the Lost Ark</td><td>99%</td><td>1981</td></tr>
         <tr><td>The Godfather</td><td>99%</td><td>1972</td></tr>
         <tr><td>Citizen Kane</td><td>99%</td><td>1941</td></tr>
-
+          </ul>
 
         </tbody>
       </table>
