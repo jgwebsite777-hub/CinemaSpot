@@ -3,22 +3,3 @@ text-color: white;
 background-color: black;
 border-color: black;
 }
-
-Project body {
-body, html {
-  height: 100%;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("https://codehs.com/uploads/f7e25ba3bd982d3baa133a820e44b759");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-}
