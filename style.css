@@ -84,3 +84,6 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+cursor: url('https://codehs.com/uploads/53054f704c281fa09f566f8cf9471b74'), auto;
