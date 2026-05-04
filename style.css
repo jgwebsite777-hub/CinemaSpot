@@ -85,5 +85,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-
+html
+{
 cursor: url('https://codehs.com/uploads/53054f704c281fa09f566f8cf9471b74'), auto;
+}
